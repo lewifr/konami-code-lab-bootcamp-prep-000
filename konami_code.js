@@ -34,5 +34,5 @@ function init() {
 
     console.log(e.key)
 
-});
+})
 }
