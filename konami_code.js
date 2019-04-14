@@ -32,7 +32,17 @@ function init() {
 
   document.body.addEventListener('keydown', function(e) {
 
-    console.log(e.key)
+    const key = e.key;
+
+    if (key === codes[index]) {
+      index++;
+      if (index === alphabet.length) {
+        alert('Konaaaaaamiiiiiiii !!!');
+        index = 0;
+      }
+    } else {
+      index = 0;
+    }
 
 })
 }
