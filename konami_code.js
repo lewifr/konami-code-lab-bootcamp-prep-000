@@ -30,19 +30,5 @@ function onKeyDownHandler(e) {
 function init() {
   //document.body.addEventListener('keydown', function (e) {alert('yo')})
 
-  document.body.addEventListener('keydown', function(e) {
-
-    const key = e.key;
-console.log(key)
-    if (key === codes[index]) {
-      index++;
-      if (index === codes.length) {
-        alert('Konaaaaaamiiiiiiii !!!');
-        index = 0;
-      }
-    } else {
-      index = 0;
-    }
-
-})
+  document.body.addEventListener('keydown', onKeyDownHandler)
 }
