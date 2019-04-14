@@ -18,7 +18,7 @@ function onKeyDownHandler(e) {
 
   if (key === codes[index]) {
     index++;
-    if (index === alphabet.length) {
+    if (index === codes.length) {
       alert('Konaaaaaamiiiiiiii !!!');
       index = 0;
     }
