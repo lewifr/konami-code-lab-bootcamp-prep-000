@@ -15,7 +15,7 @@ let index = 0;
 
 function onKeyDownHandler(e) {
   const key = e.key;
-alert(key)
+
   if (key === codes[index]) {
     index++;
     if (index === alphabet.length) {
