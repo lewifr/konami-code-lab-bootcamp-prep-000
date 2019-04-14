@@ -15,7 +15,7 @@ let index = 0;
 
 function onKeyDownHandler(e) {
   const key = e.key;
-alert('yo')
+
   if (key === codes[index]) {
     index++;
     if (index === alphabet.length) {
@@ -28,5 +28,5 @@ alert('yo')
 }
 
 function init() {
-  document.addEventListener('keydown', onKeyDownHandler)
+  document.addEventListener('keydown', function handle(e) {alert('yo')})
 }
