@@ -28,5 +28,13 @@ function onKeyDownHandler(e) {
 }
 
 function init() {
-  document.body.addEventListener('keydown', function (e) {alert('yo')});
+  document.body.addEventListener('keydown', function (e) {alert('yo')})
+
+  document.body.addEventListener('keydown', function(e) {
+  if (e.key === "g") {
+    return e.preventDefault()
+  } else {
+    console.log(e.key)
+  }
+});
 }
