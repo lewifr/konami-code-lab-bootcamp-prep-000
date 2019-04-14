@@ -28,5 +28,6 @@ alert(key)
 }
 
 function init() {
-  document.addEventListener('keydown', onKeyDownHandler(e))
+  alert(';yo')
+  document.addEventListener('keydown', function )
 }
