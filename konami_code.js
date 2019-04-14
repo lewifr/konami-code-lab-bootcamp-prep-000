@@ -33,6 +33,6 @@ function init() {
   document.body.addEventListener('keydown', function(e) {
 
     console.log(e.key)
-alert('yo')
+
 })
 }
